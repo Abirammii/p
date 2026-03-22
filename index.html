@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abirami K — Data Analyst Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav-header" id="nav-header">
+    <nav class="nav-inner">
+      <span class="nav-logo">Abirami K</span>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home"         class="nav-link">Home</a></li>
+        <li><a href="#about"        class="nav-link">About</a></li>
+        <li><a href="#skills"       class="nav-link">Skills</a></li>
+        <li><a href="#education"    class="nav-link">Education</a></li>
+        <li><a href="#projects"     class="nav-link">Projects</a></li>
+        <li><a href="#achievements" class="nav-link">Achievements</a></li>
+        <li><a href="#contact"      class="nav-link nav-cta">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <!-- Decorative blobs -->
+    <div class="hero-blob hero-blob--1" aria-hidden="true"></div>
+    <div class="hero-blob hero-blob--2" aria-hidden="true"></div>
+    <div class="hero-blob hero-blob--3" aria-hidden="true"></div>
+
+    <div class="hero-center">
+
+     
+
+      <!-- Name -->
+      <h1 class="hero-name">Abirami K</h1>
+
+      <!-- Role pills -->
+      <div class="hero-roles">
+        <span class="role-pill role-pill--1">Data Analytics</span>
+        <span class="role-sep" aria-hidden="true">•</span>
+        <span class="role-pill role-pill--2">Machine Learning</span>
+        <span class="role-sep" aria-hidden="true">•</span>
+        <span class="role-pill role-pill--3">Data Pipelines</span>
+      </div>
+
+      <!-- Description -->
+      <p class="hero-desc">
+        Building end-to-end data pipelines and applying machine learning to
+        transform structured data into actionable insights.
+      </p>
+
+      <!-- CTA buttons -->
+      <div class="hero-actions">
+        <a href="#contact"  class="btn btn-primary">Contact Me</a>
+        <a href="#projects" class="btn btn-outline">View Projects</a>
+      </div>
+
+      
+
+    </div>
+
+    <!-- Wave transition -->
+    <div class="hero-wave" aria-hidden="true">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="rgba(255,255,255,0)"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section about-section">
+    <div class="container">
+      <div class="section-label">Who I Am</div>
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p class="about-intro"><strong>Hi, I'm Abirami K</strong> &mdash; a Data Analyst with a background in Electronics and Communication Engineering from <a href="#" class="text-link">VIT, Vellore</a>.</p>
+          <p>I specialize in large-scale data processing and modeling, having structured and analyzed over 100,000 records using Python and SQL to support forecasting and customer segmentation initiatives. My work includes behavioral clustering using K-Means, time-series forecasting with SARIMA and Prophet, and building analytics-ready datasets through SQL-driven transformations.</p>
+          <p>I use tools such as Tableau and Looker Studio to transform raw data into meaningful insights that support measurable, data-driven decision making. I'm driven by solving real-world problems through structured data, analytical thinking, and scalable solutions.</p>
+          <div class="about-contact-chips">
+            <a href="/cdn-cgi/l/email-protection#e786858e95868a8a8e8ec98ca7808a868e8bc984888a" class="chip">
+              <span class="chip-icon">&#x1F4E7;</span>
+              <span><span class="__cf_email__" data-cfemail="5a3b3833283b3737333374311a3d373b333674393537">[email&#160;protected]</span></span>
+            </a>
+            <a href="https://wa.me/919486248242" class="chip">
+              <span class="chip-icon">&#x1F4AC;</span>
+              <span>+91 94862 48242</span>
+            </a>
+            <span class="chip">
+              <span class="chip-icon">&#x1F4CD;</span>
+              <span>Vellore, Tamil Nadu, India</span>
+            </span>
+          </div>
+        </div>
+        <div class="about-photo-wrap">
+          <div class="about-photo-frame">
+            <img
+              src="https://i.ibb.co/gM0TWkL7/Whats-App-Image-2025-05-18-at-12-42-16-PM.jpg"
+              alt="Abirami K"
+              class="about-photo"
+            />
+          </div>
+          <div class="about-photo-decoration"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section skills-section">
+    <div class="container">
+      <div class="section-label">What I Work With</div>
+      <h2 class="section-title">Skills</h2>
+      <p class="section-subtitle">A toolkit built for modern data analytics and engineering.</p>
+      <div class="skills-categories">
+        <div class="skill-category">
+          <h3 class="skill-cat-title"><span class="skill-cat-icon">&#x1F4CA;</span> Data &amp; Analysis</h3>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <img src="https://abirammii.github.io/Portfolio-Website/Python.svg.png" alt="Python" class="skill-icon" onerror="this.src='https://img.icons8.com/color/48/python--v1.png'"/>
+              <strong>Python</strong><span>Clean, analyze, and transform raw data</span>
+            </div>
+            <div class="skill-card">
+              <img src="https://abirammii.github.io/Portfolio-Website/sql2.png" alt="SQL" class="skill-icon" onerror="this.src='https://img.icons8.com/color/48/sql.png'"/>
+              <strong>SQL</strong><span>Query, filter, join, and manage data</span>
+            </div>
+            <div class="skill-card">
+              <img src="https://abirammii.github.io/Portfolio-Website/bigquery.png" alt="BigQuery" class="skill-icon" onerror="this.src='https://img.icons8.com/color/48/google-bigquery.png'"/>
+              <strong>BigQuery</strong><span>Manage large datasets efficiently</span>
+            </div>
+            <div class="skill-card">
+              <img src="https://abirammii.github.io/Portfolio-Website/excel.png" alt="Excel" class="skill-icon" onerror="this.src='https://img.icons8.com/color/48/microsoft-excel-2019--v1.png'"/>
+              <strong>Excel</strong><span>Formulas, pivot tables, and charts</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3 class="skill-cat-title"><span class="skill-cat-icon">&#x1F4C8;</span> Visualization &amp; BI</h3>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <img src="https://abirammii.github.io/Portfolio-Website/looker-icon.png" alt="Looker Studio" class="skill-icon" onerror="this.src='https://img.icons8.com/color/48/google-looker.png'"/>
+              <strong>Looker Studio</strong><span>Dashboards and visual reports</span>
+            </div>
+            <div class="skill-card">
+              <img src="https://img.icons8.com/color/48/power-bi.png" alt="Power BI" class="skill-icon"/>
+              <strong>Power BI</strong><span>Interactive business intelligence</span>
+            </div>
+            <div class="skill-card">
+              <img src="https://img.icons8.com/color/48/tableau-software.png" alt="Tableau" class="skill-icon"/>
+              <strong>Tableau</strong><span>Data storytelling and visuals</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3 class="skill-cat-title"><span class="skill-cat-icon">&#x1F4BB;</span> Development &amp; Tools</h3>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <img src="https://abirammii.github.io/Portfolio-Website/html.png" alt="HTML" class="skill-icon" onerror="this.src='https://img.icons8.com/color/48/html-5--v1.png'"/>
+              <strong>HTML</strong><span>Clean, semantic web pages</span>
+            </div>
+            <div class="skill-card">
+              <img src="https://abirammii.github.io/Portfolio-Website/css.png" alt="CSS" class="skill-icon" onerror="this.src='https://img.icons8.com/color/48/css3.png'"/>
+              <strong>CSS</strong><span>Responsive styling and animations</span>
+            </div>
+            <div class="skill-card">
+              <img src="https://abirammii.github.io/Portfolio-Website/version control.png" alt="Git and GitHub" class="skill-icon" onerror="this.src='https://img.icons8.com/color/48/github--v1.png'"/>
+              <strong>Git &amp; GitHub</strong><span>Version control and collaboration</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section education-section">
+    <div class="container">
+      <div class="section-label">Academic Journey</div>
+      <h2 class="section-title">Education</h2>
+      <div class="education-timeline">
+        <div class="edu-card edu-card--featured">
+          <div class="edu-badge">&#x1F393;</div>
+          <div class="edu-content">
+            <span class="edu-year">2021 &ndash; 2025</span>
+            <h3>B.Tech in Electronics and Communication Engineering</h3>
+            <p class="edu-institution">Vellore Institute of Technology</p>
+          </div>
+        </div>
+        <div class="edu-card">
+          <div class="edu-badge">&#x1F3EB;</div>
+          <div class="edu-content">
+            <span class="edu-year">2019 &ndash; 2021</span>
+            <h3>Senior Secondary (Class XII)</h3>
+            <p class="edu-institution">Lakshmi Garden Matric School, Vellore</p>
+          </div>
+        </div>
+        <div class="edu-card">
+          <div class="edu-badge">&#x1F3EB;</div>
+          <div class="edu-content">
+            <span class="edu-year">2018 &ndash; 2019</span>
+            <h3>Secondary (Class X)</h3>
+            <p class="edu-institution">St. Mary's Girls HR SEC School, Vellore</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section projects-section">
+    <div class="container">
+      <div class="section-label">My Work</div>
+      <h2 class="section-title">Projects</h2>
+      <p class="section-subtitle">Explore my latest data analytics and machine learning projects.</p>
+      <div class="projects-grid">
+
+        <article class="project-card">
+          <div class="project-img-wrap">
+            <img src="https://abirammii.github.io/Portfolio-Website/i.jpeg" alt="Financial Clustering" class="project-img" onerror="this.parentElement.classList.add('no-img')" />
+            <div class="project-overlay"><a href="https://github.com/Abirammii/finbee-analyserbot-and-finance-segmentation" target="_blank" class="overlay-btn">View on GitHub &rarr;</a></div>
+          </div>
+          <div class="project-body">
+            <div class="project-tags"><span class="tag">Python</span><span class="tag">K-Means</span><span class="tag">ML</span><span class="tag">Banking</span></div>
+            <h3 class="project-title">Financial Behaviour Clustering &amp; Segmentation with SmartBot</h3>
+            <p class="project-desc">Built a financial behaviour clustering model for banking clients, enabling personalised recommendations through the FINBEE advisory bot.</p>
+            <div class="project-metrics">
+              <div class="metric"><span class="metric-val">53%</span><span class="metric-label">Higher clustering performance</span></div>
+              <div class="metric"><span class="metric-val">10,128</span><span class="metric-label">Bank clients analyzed</span></div>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/Abirammii/finbee-analyserbot-and-finance-segmentation" target="_blank" class="project-btn project-btn--gh">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-img-wrap">
+            <img src="https://i.ibb.co/mVdYPFx6/Chat-GPT-Image-May-21-2025-05-09-25-PM.png" alt="Crowd Monitoring" class="project-img" onerror="this.parentElement.classList.add('no-img')" />
+            <div class="project-overlay"><a href="https://github.com/Abirammii/crowd-monitoring" target="_blank" class="overlay-btn">View on GitHub &rarr;</a></div>
+          </div>
+          <div class="project-body">
+            <div class="project-tags"><span class="tag">YOLOv11</span><span class="tag">Computer Vision</span><span class="tag">Python</span></div>
+            <h3 class="project-title">Crowd Monitoring System Using YOLOv11 with Benchmark Analysis</h3>
+            <p class="project-desc">Benchmarked YOLOv11 against YOLOv10 for crowd detection, achieving significantly higher person detection rates per frame.</p>
+            <div class="project-metrics">
+              <div class="metric"><span class="metric-val">2&times;</span><span class="metric-label">Higher detection rate</span></div>
+              <div class="metric"><span class="metric-val">87</span><span class="metric-label">People/frame (YOLOv11)</span></div>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/Abirammii/crowd-monitoring" target="_blank" class="project-btn project-btn--gh">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-img-wrap">
+            <img src="https://abirammii.github.io/Portfolio-Website/ii.jpeg" alt="Time Series Forecasting" class="project-img" onerror="this.parentElement.classList.add('no-img')" />
+            <div class="project-overlay"><a href="https://github.com/Abirammii/Time-Series-Analysis" target="_blank" class="overlay-btn">View on GitHub &rarr;</a></div>
+          </div>
+          <div class="project-body">
+            <div class="project-tags"><span class="tag">Prophet</span><span class="tag">SARIMA</span><span class="tag">Time Series</span></div>
+            <h3 class="project-title">In-Depth Time Series Approach for Dynamic Sales Forecasting</h3>
+            <p class="project-desc">Improved sales forecast accuracy by incorporating holiday effects into the Prophet model, reducing RMSE significantly.</p>
+            <div class="project-metrics">
+              <div class="metric"><span class="metric-val">1.5%</span><span class="metric-label">Accuracy improvement</span></div>
+              <div class="metric"><span class="metric-val">456&rarr;455</span><span class="metric-label">RMSE reduced</span></div>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/Abirammii/Time-Series-Analysis" target="_blank" class="project-btn project-btn--gh">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-img-wrap">
+            <img src="https://abirammii.github.io/Portfolio-Website/lookr.jpeg" alt="Fake News Propagation" class="project-img" onerror="this.parentElement.classList.add('no-img')" />
+            <div class="project-overlay"><a href="https://github.com/Abirammii/Misinformation-spread" target="_blank" class="overlay-btn">View on GitHub &rarr;</a></div>
+          </div>
+          <div class="project-body">
+            <div class="project-tags"><span class="tag">BigQuery</span><span class="tag">Looker Studio</span><span class="tag">Python</span></div>
+            <h3 class="project-title">Analyzing Fake News Propagation Dynamics in Social Media</h3>
+            <p class="project-desc">Simulated fake news propagation across 5 intervention scenarios over 10 timesteps and built a BigQuery + Looker Studio dashboard.</p>
+            <div class="project-metrics">
+              <div class="metric"><span class="metric-val">5</span><span class="metric-label">Intervention scenarios</span></div>
+              <div class="metric"><span class="metric-val">10</span><span class="metric-label">Timestep analysis</span></div>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/Abirammii/Misinformation-spread" target="_blank" class="project-btn project-btn--gh">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-img-wrap">
+            <img src="https://abirammii.github.io/Portfolio-Website/flower.png" alt="Flower Shop" class="project-img" onerror="this.parentElement.classList.add('no-img')" />
+            <div class="project-overlay"><a href="https://abirammii.github.io/flower-shop/" target="_blank" class="overlay-btn">View Live &rarr;</a></div>
+          </div>
+          <div class="project-body">
+            <div class="project-tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div>
+            <h3 class="project-title">Flower Shop &mdash; Responsive E-Commerce Website</h3>
+            <p class="project-desc">Built a responsive flower shop with interactive product listings and category filters, optimized for desktop and mobile browsing.</p>
+            <div class="project-links">
+              <a href="https://abirammii.github.io/flower-shop/" target="_blank" class="project-btn project-btn--live">&#x1F338; Live Demo</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-img-wrap">
+            <img src="https://abirammii.github.io/Portfolio-Website/donut-house.png" alt="Donut House" class="project-img" onerror="this.parentElement.classList.add('no-img')" />
+            <div class="project-overlay"><a href="https://abirammii.github.io/donut-house/" target="_blank" class="overlay-btn">View Live &rarr;</a></div>
+          </div>
+          <div class="project-body">
+            <div class="project-tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div>
+            <h3 class="project-title">Build Your Perfect Donut &mdash; E-Commerce Website</h3>
+            <p class="project-desc">Interactive donut builder with real-time ingredient selection and preview, letting users design personalised donuts dynamically.</p>
+            <div class="project-links">
+              <a href="https://abirammii.github.io/donut-house/" target="_blank" class="project-btn project-btn--live">&#x1F369; Live Demo</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section id="achievements" class="section achievements-section">
+    <div class="container">
+      <div class="section-label">Recognition</div>
+      <h2 class="section-title">Achievements &amp; Certifications</h2>
+      <p class="section-subtitle">Recognition and milestones from my professional journey.</p>
+      <div class="achievements-grid">
+        <div class="achievement-card achievement-card--highlight">
+          <span class="ach-year">2026</span>
+          <div class="ach-icon">&#x1F3C5;</div>
+          <h4>Google Data Analytics</h4>
+          <p>Grow with Google &middot; Coursera</p>
+          <span class="ach-badge ach-badge--cert">Certification</span>
+        </div>
+        <div class="achievement-card">
+          <span class="ach-year">2025</span>
+          <div class="ach-icon">&#x1F4CA;</div>
+          <h4>Power BI</h4>
+          <p>Great Learning</p>
+          <span class="ach-badge ach-badge--cert">Certification</span>
+        </div>
+        <div class="achievement-card">
+          <span class="ach-year">2024</span>
+          <div class="ach-icon">&#x1F916;</div>
+          <h4>Microsoft Azure AI-900</h4>
+          <p>Microsoft</p>
+          <span class="ach-badge ach-badge--cert">Certification</span>
+        </div>
+        <div class="achievement-card">
+          <span class="ach-year">2024</span>
+          <div class="ach-icon">&#x1F4DA;</div>
+          <h4>Educational Leadership</h4>
+          <p>NPTEL</p>
+          <span class="ach-badge ach-badge--course">Course</span>
+        </div>
+        <div class="achievement-card">
+          <span class="ach-year">2023</span>
+          <div class="ach-icon">&#x1F4BC;</div>
+          <h4>VLSI Design Internship</h4>
+          <p>Maven Silicon</p>
+          <span class="ach-badge ach-badge--intern">Internship</span>
+        </div>
+        <div class="achievement-card">
+          <span class="ach-year">2023</span>
+          <div class="ach-icon">&#x1F4D7;</div>
+          <h4>Excel Certification</h4>
+          <p>Great Learning</p>
+          <span class="ach-badge ach-badge--cert">Certification</span>
+        </div>
+        <div class="achievement-card">
+          <span class="ach-year">2023</span>
+          <div class="ach-icon">&#x1F4A1;</div>
+          <h4>Entrepreneurship</h4>
+          <p>NPTEL</p>
+          <span class="ach-badge ach-badge--course">Course</span>
+        </div>
+        <div class="achievement-card">
+          <span class="ach-year">2022</span>
+          <div class="ach-icon">&#x1F52C;</div>
+          <h4>MATLAB</h4>
+          <p>VAC (VIT)</p>
+          <span class="ach-badge ach-badge--cert">Certification</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <div class="section-label">Let's Talk</div>
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="section-subtitle">Have a question or want to work together? Feel free to reach out!</p>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <a href="/cdn-cgi/l/email-protection#3d5c5f544f5c5050545413567d5a505c5451135e5250" class="contact-item">
+            <div class="contact-item-icon">&#x1F4E7;</div>
+            <div><strong>Email</strong><span><span class="__cf_email__" data-cfemail="c9a8aba0bba8a4a4a0a0e7a289aea4a8a0a5e7aaa6a4">[email&#160;protected]</span></span></div>
+          </a>
+          <a href="https://wa.me/919486248242" class="contact-item">
+            <div class="contact-item-icon">&#x1F4AC;</div>
+            <div><strong>WhatsApp</strong><span>+91 94862 48242</span></div>
+          </a>
+          <div class="contact-item">
+            <div class="contact-item-icon">&#x1F4CD;</div>
+            <div><strong>Location</strong><span>Vellore, Tamil Nadu, India</span></div>
+          </div>
+        </div>
+        <form class="contact-form" id="contact-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" placeholder="Your name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" placeholder="your@email.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" placeholder="How can I help you?" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" placeholder="Your message here..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">&#x2709; Send Message</button>
+        <        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <p>&copy; 2025 Abirami K &middot; Built with passion and pink &#x1F338;</p>
+    </div>
+  </footer>
+
+  <!-- Animated background canvas (behind everything) -->
+  <canvas id="bg-canvas" aria-hidden="true"></canvas>
+
+  <script src="script.js"></script>
+  <script src="bg-animation.js"></script>
+</body>
+</html>
