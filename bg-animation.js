@@ -17,7 +17,7 @@
     nodeCount:    38,
     connectDist:  160,
     dotMinR:      1,
-    dotMaxR:      1,
+    dotMaxR:      2,
     speedScale:   0.28,
     labelChance:  0.45,
     pulseChance:  0.18,
