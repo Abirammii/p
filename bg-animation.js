@@ -24,11 +24,12 @@
   };
 
   const DATA_LABELS = [
-    '3.7M','ETL','99.2%','JOIN','SQL','0xFF',
-    'AVG','NULL','INDEX','Δ+12','PIPE','BLOB',
-    '∑','JSON','API','ROW','COL','DIM','FACT',
-    '1024','NaN','TRUE','→','⟨x⟩','p<.05',
-    'LOAD','SORT','HASH','MERGE','CAST','TRUNC',
+    'NUMPY','ETL','99.2%','JOIN','SQL','CLUSTER',
+    'AVG','NULL','INDEX','PANDAS', 'MATPLOTLIB', 'SEABORN',
+'SCIKIT', 'TENSORFLOW','PIPE','BLOB',
+    '∑','PIPELINE','API','ROW','COL','nlp',
+    'KPI','NaN','TRUE','→','FORECASTING','ACCURACY',
+    'LOAD','SORT','MERGE','SEGMENTATION','TRUNC',
   ];
 
   let W, H, dpr, nodes = [], animId;
